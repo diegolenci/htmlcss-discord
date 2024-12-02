@@ -48,7 +48,7 @@
   main{
     background-color: rgb(179, 187, 195);
     text-align: center;
-    height: 2500px;
+    height: 2700px;
 
   }
 
@@ -84,11 +84,26 @@
     text-align: center;
     height: 600px;
   }
+  
+  .mac-2{
+    background-color: rgba(98, 67, 201, 0.817);
+    color: white;
+    border-style: hidden;
+    border-radius: 14px;
+    padding: 8px;
+  }
 
 
-  footer{
+  footer .flex div{
+    flex-basis: calc(100% / 5);
     background-color: rgb(71, 67, 67);
     text-align: center;
-    height: 500px;
+    height: 200px;
+    flex-direction:row;
+    }
+
+  footer .flex div:first-child{
+    flex-basis: 25%;
   }
+
   
