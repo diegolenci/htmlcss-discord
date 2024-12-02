@@ -1,16 +1,16 @@
  
  header{
-    background-color: rgb(21, 124, 242);
+    background-image: url(img-3/jumbo.png);
+    background-size: cover;
     text-align: center;
     height: 500px;
   }
 
-  .contenuto1{
-    background-color: blue;
-    height: 70px;
+  .logo{
+    padding-top: 10px;
   }
+
   .contenuto2{
-    background-color: aqua;
     width: 500px;
     height: 500px;
     margin-left: 530px;
@@ -20,8 +20,7 @@
     border-style: hidden;
     border-radius: 14px;
     padding: 8px;
-    margin: 14px;
-    margin-left: 1100px;
+    margin-left: 1200px;
   }
 
   main{
@@ -31,13 +30,13 @@
 
   }
 
-  .flex-container{
-    background-color: brown;
-    width: 750px;
-    height: 500px;
-    margin-left: 805px;
-    text-align: center;
-    align-content: center;
+  .image-1{
+    width: 80px;
+    height: 80px;
+  }
+
+  .contenuto-1 {
+    margin-left: 500px;
   }
 
   article{
