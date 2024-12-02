@@ -110,10 +110,11 @@
 
 
   footer .flex div{
+    display: flex;
+    flex-direction: row;
     color: white;
     flex-basis: calc(100% / 5);
     background-color: rgb(43, 46, 56);
-    text-align: center;
     height: 200px;
   }
 
