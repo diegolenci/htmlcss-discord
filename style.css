@@ -5,6 +5,21 @@
     text-align: center;
     height: 600px;
   }
+  h2{
+    display: block;
+    font-size: 35px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+  .menu{
+
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: white;
+  }
 
   .logo{
     padding-top: 10px;
@@ -81,9 +96,9 @@
     display: flex;
     justify-content: space-around;
     background-color: rgb(246, 247, 245);
-    text-align: center;
     height: 600px;
   }
+  
   
   .mac-2{
     background-color: rgba(98, 67, 201, 0.817);
@@ -95,15 +110,22 @@
 
 
   footer .flex div{
+    color: white;
     flex-basis: calc(100% / 5);
-    background-color: rgb(71, 67, 67);
+    background-color: rgb(43, 46, 56);
     text-align: center;
     height: 200px;
-    flex-direction:row;
-    }
+  }
 
   footer .flex div:first-child{
     flex-basis: 25%;
+  }
+  .principale-1{
+    color: rgba(98, 67, 201, 0.817);
+    font-size: 20px;
+  }
+  .principale{
+    color: rgba(98, 67, 201, 0.817);
   }
 
   
